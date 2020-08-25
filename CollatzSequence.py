@@ -2,7 +2,7 @@
 #This function performs the CST.
 def collatz(): 
     global number 
-    #Determines if user input is even or odd, which them performs a specific operation on it.
+    #Determines if user input is even or odd, which then performs a specific operation on it.
     if number % 2 == 0: 
         number = number // 2
         print(number)
